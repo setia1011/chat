@@ -8,30 +8,15 @@
  *
  * @category Configuration
  * @package  Mysql_Websocket_Chat
- * @author   Johnny Mast <mastjohnny@gmail.com>
+ * @author   Setiadi <dev.setiadi.acc@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT
- * @link     https://github.com/johnnymast/mysql_websocket_chat
+ * @link     https://github.com/setiad1/chat
  * @since    GIT:1.0
  */
 
 use Ratchet\ConnectionInterface;
 use Ratchet\MessageComponentInterface;
 
-/**
- * Class Chat
- *
- * The main Chat controller for mysql_websocket_chat
- *
- * PHP version 7.2 and up.
- * Chat
- *
- * @category Configuration
- * @package  Mysql_Websocket_Chat
- * @author   Johnny Mast <mastjohnny@gmail.com>
- * @license  https://opensource.org/licenses/MIT MIT
- * @link     https://github.com/johnnymast/mysql_websocket_chat
- * @since    1.0
- */
 class Chat implements MessageComponentInterface
 {
     /**
